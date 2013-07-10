@@ -8,11 +8,8 @@
 //////////////////////////////
 // Media Border
 //////////////////////////////
-%media-border {
-  border-width: $border-width 0 $border-width 0;
+%media-shared {
   border-style: outset;
-  border-color: $primary;
-  border-radius: $border-width;
   margin: .25em 0;
 }
 
