@@ -1,8 +1,12 @@
 .ir-16-9 {
-  @extend %media-border;
+  @extend %media-shared;
+
+  @include media-border($primary);
 }
 
 .carousel {
-  @extend %media-border;
+  @extend %media-shared;
   margin-bottom: .5em;
+
+  @include media-border($primary);
 }
