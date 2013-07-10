@@ -1,8 +1,8 @@
 .ir-16-9 {
-  @extend %border;
+  @extend %media-border;
 }
 
 .carousel {
-  @extend %border;
+  @extend %media-border;
   margin-bottom: .5em;
 }
