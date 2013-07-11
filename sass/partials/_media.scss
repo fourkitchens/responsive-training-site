@@ -1,4 +1,5 @@
-.ir-16-9 {
+.fluid-video {
+  display: none;
   @extend %media-shared;
 
   @include media-border($primary);
