@@ -6,13 +6,26 @@
 // Toolkit imports all of Compass, so there is no need to import it separately.
 ////////////////////////
 
+//////////////////////////////
+// Setup Variables
+//////////////////////////////
+$legacy-support-for-ie6: false;
+$legacy-support-for-ie7: false;
+$legacy-support-for-ie8: false;
+$legacy-support-for-mozilla: false;
+
+//////////////////////////////
+// Import Normalize
+//////////////////////////////
+@import 'normalize';
+
 ////////////////////////
 // Compass Extensions
 ////////////////////////
 @import 'singularitygs';
 @import 'toolkit';
-@import 'sassy-buttons';
-@import 'normalize';
+@import 'toolkit/carousel';
+@import 'singularity-extras/generators';
 
 ////////////////////////
 // Private Imports

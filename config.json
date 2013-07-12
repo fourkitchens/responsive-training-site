@@ -11,10 +11,8 @@
     "debugInfo": false,
     "extensions": [
       "toolkit",
-      "sassy-buttons",
-      "modular-scale",
       "compass-normalize",
-      "animate"
+      "singularity-extras"
     ]
   },
   "git": {
